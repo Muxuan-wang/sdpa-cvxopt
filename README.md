@@ -1,2 +1,9 @@
 # sdpa-cvxopt
-Convert sdp problems in SDPA form to cvxopt form
+Convert sdp problems in SDPA form to cvxoptsdp form (Python)
+
+
+The SDP library ( http://euler.nmt.edu/~brian/sdplib/) includes a bunch of SDP in  SDPA form (http://euler.nmt.edu/~brian/sdplib/sdplib.pdf). The sdp_cnvrt.py file provides a function called conelp_form, converting the SDPA form to cvxopt.
+
+Required packages:numpy, itertools, cvxopt
+
+An example is provided in example.ipynb.
